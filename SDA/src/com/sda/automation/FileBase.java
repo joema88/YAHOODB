@@ -21,7 +21,7 @@ public class FileBase {
 
 					if (!checkFileExist(symbol)) {
 						totalStocks++;
-						StockCX520.process(symbol);
+						StockBase.process(symbol);
 						System.out.println("Processed stock "+symbol);
 					}
 				}

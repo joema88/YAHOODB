@@ -44,7 +44,7 @@ public class StockCX520 {
 
 				if (!find) {
 					try {
-						s.wait(highlight1.similar((double) 0.6), 2000);
+						s.wait(highlight1.similar((double) 0.6), 6000);
 						s.rightClick();
 						find = true;
 					} catch (Exception ex) {
@@ -54,7 +54,7 @@ public class StockCX520 {
 				}
 				if (!find) {
 					try {
-						s.wait(highlight2.similar((double) 0.6), 2000);
+						s.wait(highlight2.similar((double) 0.6), 4000);
 						s.rightClick();
 						find = true;
 					} catch (Exception ex) {
@@ -64,7 +64,7 @@ public class StockCX520 {
 				}
 				if (!find) {
 					try {
-						s.wait(highlight3.similar((double) 0.6), 2000);
+						s.wait(highlight3.similar((double) 0.6), 4000);
 						s.rightClick();
 						find = true;
 					} catch (Exception ex) {
