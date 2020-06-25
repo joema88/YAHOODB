@@ -17,7 +17,7 @@ public class FilePink {
 
 			while ((line = br.readLine()) != null) {
 				String symbol = line.strip();
-				if (symbol.length() > 1) {
+				if (symbol.length() >= 1) {
 
 					if (!checkFileExist(symbol)) {
 						totalStocks++;
