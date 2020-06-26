@@ -170,12 +170,12 @@ public class StockTeal {
 
 					}
 				}
-				s.wait(report.similar((double) 0.9), 2000);
+				s.wait(report.similar((double) 0.8), 2000);
 				// s.find(report.similar((double)0.9));
 				s.click();
-				s.wait(export.similar((double) 0.9), 2000);
+				s.wait(export.similar((double) 0.8), 2000);
 				s.click();
-				s.wait(fileName.similar((double) 0.9), 2000);
+				s.wait(fileName.similar((double) 0.8), 2000);
 				s.click();
 				for (int i = 0; i < 5; i++) {
 					s.keyDown(Key.BACKSPACE);

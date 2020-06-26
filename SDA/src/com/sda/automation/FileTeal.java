@@ -22,7 +22,7 @@ public class FileTeal {
 					if (!checkFileExist(symbol)) {
 						totalStocks++;
 						StockTeal.process(symbol);
-						System.out.println("Processed stock "+symbol);
+						System.out.println(totalStocks+" Processed stock "+symbol);
 					}
 				}
 

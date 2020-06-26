@@ -22,7 +22,7 @@ public class FileBase {
 					if (!checkFileExist(symbol)) {
 						totalStocks++;
 						StockBase.process(symbol);
-						System.out.println("Processed stock "+symbol);
+						System.out.println(totalStocks+" Processed stock "+symbol);
 					}
 				}
 

@@ -22,7 +22,7 @@ public class FileYellow {
 					if (!checkFileExist(symbol)) {
 						totalStocks++;
 						StockYellow.process(symbol);
-						System.out.println("Processed stock "+symbol);
+						System.out.println(totalStocks+" Processed stock "+symbol);
 					}
 				}
 

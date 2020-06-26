@@ -22,7 +22,7 @@ public class FilePink {
 					if (!checkFileExist(symbol)) {
 						totalStocks++;
 						StockPink.process(symbol);
-						System.out.println("Processed stock "+symbol);
+						System.out.println(totalStocks+" Processed stock "+symbol);
 					}
 				}
 
