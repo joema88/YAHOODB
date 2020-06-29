@@ -22,7 +22,7 @@ public class FileCX520 {
 					if (!checkFileExist(symbol)) {
 						totalStocks++;
 						StockCX520.process(symbol);
-						System.out.println(totalStocks +" Processed stock "+symbol);
+						System.out.println(" Processed stock "+symbol+" at "+totalStocks);
 					}
 				}
 
