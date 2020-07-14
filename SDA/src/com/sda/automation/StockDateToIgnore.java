@@ -13,7 +13,7 @@ public class StockDateToIgnore {
 	public static void main(String[] args) {
 
 		String fileLoc = "C:\\Users\\bpmadmin\\Documents\\";
-		String dateToIgnore="6/29/20";
+		String dateToIgnore="7/14/20";
 		File f = new File(fileLoc);
 
 		// array of files and directory
